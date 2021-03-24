@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    background: linear-gradient(aquamarine, blue);
+}
+
+#i {
+    border-radius: 50%;
+    width: 350px;
+}
+
+img {
+    width: 350px;
+}
+
+h1 {
+    text-shadow: 2px 2px aquamarine;
+    font-size: 35px;
+}
+
+#bio {
+    padding: 100px;
+    font-size: 18;
+    text-align: center;
+    background: linear-gradient(aquamarine, blue);
+}
+
+#about {
+    padding: 100px;
+    font-size: 18;
+    text-align: center;
+    background: linear-gradient(aquamarine, blue);
+}
+
+.menu {
+    list-style: none;
+    font-family: monospace;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    position: fixed;
+}
+
+.link {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+}
+
+.link:hover {
+    background-color: antiquewhite;
+}
+
+#books {
+    padding: 100px;
+    font-size: 18;
+    text-align: center;
+    background: linear-gradient(aquamarine, blue);
+}
+
+#work {
+    padding: 100px;
+    font-size: 18;
+    text-align: center;
+    background: linear-gradient(aquamarine, blue);
+}
+
+#inspiration {
+    padding: 100px;
+    font-size: 18;
+    text-align: center;
+    background: linear-gradient(aquamarine, blue);
+}
+
+#contact {
+    padding: 100px;
+    font-size: 18;
+    text-align: center;
+    background: linear-gradient(aquamarine, blue);
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+p{
+    font-family: monospace;
+    font-weight: 400;
+}
+#m{
+    transition: transform .2s;
+    border: 10px solid grey;
+}
+
+#m:hover{
+    transform: scale(0.9);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
